@@ -20,7 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > pwd : show current working directory path
+> > mkdir <directory_name> : create a directory
+> > rm -rf <directory_name> : deleting a directory
+> > touch <filename> : creating a file using `touch` command
+> > rm <filename> : deleting a file
+> > cp <old_filename> <new_filename> : renaming a file
+> > ls -a: listing hidden files
+> > cp </path/to/file> <path/to/new/diretory> : copying a file from one directory to another
+> > cat <filename> : output content of file to command line console
+> > mv <filename> </path/to/new/location> : move a file
 
 ---
 
@@ -35,7 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 'ls' : Shows the content in the current directory.
+> > 'ls -a' : Shows the content in the current directory and the hidden files. 
+> > 'ls -l' : Shows file size, date modified, user information, and read/write file type in a tabular format.
+> > 'ls -lh' : Same as above, but gives file size in a more digestible format. 
+> > 'ls -lah' : Same as above but includes the hidden file information. 
+> > 'ls -t' : Sorts by time modified first before lexicographical ordering.
+> > 'ls -Glp' : Highlights the folder a different color, and adds a forward slash to directories. 
 
 ---
 
@@ -43,7 +58,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 'ls -S' : Sort files by size.  
+> > 'ls -m' : Stream output format, list files across the page, separated by commas. 
+> > 'ls -r' : Displays files in reverse order. 
+> > 'ls -W' : Displays whiteouts when scanning directories. 
+> > 'ls -R': Recursively list subdirectories encountered. 
 
 ---
 
@@ -51,7 +70,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > Xargs basically reads data from standard input and executes the command supplied one or more times based on the input.  Blanks and spaces are treated as delimiters and blank lines are ignored. If you wanted to find files that contain specific text, you can do the following:
+> > 'find -name "*.txt" | xargs grep "abc"'
+> > This will find all text files in the current directory and subdirectories that contain the text 'abc' in it. 
 
  
 
