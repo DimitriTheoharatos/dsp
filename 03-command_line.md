@@ -44,13 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > 'ls' : Shows the content in the current directory.
-> > 'ls -a' : Shows the content in the current directory and the hidden files. 
-> > 'ls -l' : Shows file size, date modified, user information, and read/write file type in a tabular format.
-> > 'ls -lh' : Same as above, but gives file size in a more digestible format. 
-> > 'ls -lah' : Same as above but includes the hidden file information. 
-> > 'ls -t' : Sorts by time modified first before lexicographical ordering.
-> > 'ls -Glp' : Highlights the folder a different color, and adds a forward slash to directories. 
+> > 'ls' : Shows the content in the current directory.  
+> > 'ls -a' : Shows the content in the current directory and the hidden files.   
+> > 'ls -l' : Shows file size, date modified, user information, and read/write file type in a tabular format.  
+> > 'ls -lh' : Same as above, but gives file size in a more digestible format.   
+> > 'ls -lah' : Same as above but includes the hidden file information.   
+> > 'ls -t' : Sorts by time modified first before lexicographical ordering.  
+> > 'ls -Glp' : Highlights the folder a different color, and adds a forward slash to directories.   
 
 ---
 
@@ -59,10 +59,10 @@ What do the following commands do:
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 > > 'ls -S' : Sort files by size.  
-> > 'ls -m' : Stream output format, list files across the page, separated by commas. 
-> > 'ls -r' : Displays files in reverse order. 
-> > 'ls -W' : Displays whiteouts when scanning directories. 
-> > 'ls -R': Recursively list subdirectories encountered. 
+> > 'ls -m' : Stream output format, list files across the page, separated by commas.   
+> > 'ls -r' : Displays files in reverse order.   
+> > 'ls -W' : Displays whiteouts when scanning directories.   
+> > 'ls -R': Recursively list subdirectories encountered.   
 
 ---
 
@@ -70,8 +70,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > Xargs basically reads data from standard input and executes the command supplied one or more times based on the input.  Blanks and spaces are treated as delimiters and blank lines are ignored. If you wanted to find files that contain specific text, you can do the following:
-> > 'find -name "*.txt" | xargs grep "abc"'
+> > Xargs basically reads data from standard input and executes the command supplied one or more times based on the input.  Blanks and spaces are treated as delimiters and blank lines are ignored. If you wanted to find files that contain specific text, you can do the following:  
+> > 'find -name "*.txt" | xargs grep "abc"'    
 > > This will find all text files in the current directory and subdirectories that contain the text 'abc' in it. 
 
  
