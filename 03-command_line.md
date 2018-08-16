@@ -25,7 +25,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > > rm -rf <directory_name> : deleting a directory.   
 > > touch <filename> : creating a file using `touch` command.    
 > > rm <filename> : deleting a file.    
-> > cp <old_filename> <new_filename> : renaming a file.    
+> > mv <old_filename> <new_filename> : renaming a file.    
 > > ls -a: listing hidden files.    
 > > cp </path/to/file> <path/to/new/diretory> : copying a file from one directory to another.    
 > > cat <filename> : output content of file to command line console.    
