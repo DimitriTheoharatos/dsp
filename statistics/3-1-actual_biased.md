@@ -48,7 +48,7 @@ thinkplot.Config(xlabel='Number of children in Household', ylabel='PMF')
 
 ![alt text](https://github.com/DimitriTheoharatos/dsp/blob/master/statistics/exercise_images/Q2_2.png)
 
-Finally, we compute the means using the Pf object's mean function:
+Finally, we compute the means using the PMF object's mean function:
 
 ```python
 print('Actual mean', actual_pmf.Mean())
