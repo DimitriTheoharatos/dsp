@@ -14,7 +14,9 @@ thinkplot.Config(xlabel="Mother's Age (yrs)",
                  legend=False)
 ```
 
-![alt text](https://github.com/DimitriTheoharatos/dsp/tree/master/statistics/exercise_images/7-1_1.png)
+![alt text](https://github.com/DimitriTheoharatos/dsp/blob/master/statistics/exercise_images/7-1_1.png)
+
+
 
 
 An initial glance at the above plot implies that there is little to no correlation between the two variables, but we can verify by calculating the Pearson and Spearman Correlation coefficients:
@@ -60,6 +62,6 @@ thinkplot.Config(xlabel="Mother's age (yrs)",
                      xlim=[16, 42], legend=True)
  ```  
 
-![alt text](https://github.com/DimitriTheoharatos/dsp/tree/master/statistics/exercise_images/7-1_2.png)
+![alt text](https://github.com/DimitriTheoharatos/dsp/blob/master/statistics/exercise_images/7-1_2.png)
 
 The percentile plot also does not look to have a strong correlation- though it seems that each group tends to increase as the mother's age increases from 15 to 25.  Based on the previous scatterplot and correlation computations however, it does not seem to be a compelling correlation. 
