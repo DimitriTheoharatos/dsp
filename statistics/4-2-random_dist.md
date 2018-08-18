@@ -27,7 +27,7 @@ thinkplot.Config(xlabel = 'Random Number', ylabel = 'PMF')
 
 As expected, the PMF shows a uniform distribution with the expected probability of 0.001 across all distributions.  This makes intuitive sense, since we if multiply 0.001 by our range 1000, we get 1, the probability of the entire sample space. 
 
-We can verify that the random number generator is truly random by investigating the CDF as well.  We would expect this to a linearly increasing function from 0 to 1. 
+We can verify that the random number generator is truly random by investigating the CDF as well.  We would expect this to be a linearly increasing function from 0 to 1. 
 
 ```python
 cdf_rand = thinkstats2.Cdf(rand_nums)
