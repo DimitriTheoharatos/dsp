@@ -21,7 +21,7 @@ thinkplot.Config(xlabel='Number of Children in Household', ylabel='PMF')
 
 The above code results in the following plot:
 
-![alt text][https://github.com/DimitriTheoharatos/dsp/blob/master/statistics/exercise_images/Q2_1.png]
+![alt text](https://github.com/DimitriTheoharatos/dsp/blob/master/statistics/exercise_images/Q2_1.png)
 
 
 Now that we have the actual distribution, we can calculate the biased PMF using the following function:
@@ -46,7 +46,7 @@ thinkplot.Pmfs([actual_pmf, biased_pmf])
 thinkplot.Config(xlabel='Number of children in Household', ylabel='PMF')
 ```
 
-![alt text][https://github.com/DimitriTheoharatos/dsp/blob/master/statistics/exercise_images/Q2_2.png]
+![alt text](https://github.com/DimitriTheoharatos/dsp/blob/master/statistics/exercise_images/Q2_2.png)
 
 Finally, we compute the means using the Pf object's mean function:
 
@@ -56,7 +56,7 @@ print('Observed mean', biased_pmf.Mean())
 ```
 
 
-| Actual        | Biased        | 
+| Actual Mean   | Biased Mean   | 
 | ------------- |:-------------:| 
 | 1.024         | 2.404         |
 
