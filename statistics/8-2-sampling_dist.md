@@ -38,6 +38,6 @@ This produces the following values for the standard errors, and confidence inter
 |100        | 0.20               | [1.696, 2.355]     |
 |1000       | 0.062              | [1.9, 2.103]       |
 
-As the sample size increases, the standard error of our estimator decreases and our confidence interval becomes more tightly bound. This makes intuitive sense, since as our sample size increase, we have more confidence that our sammple is an accurate representation of the population.  This is also depicted in the following plot:
+As the sample size increases, the standard error of our estimator decreases and our confidence interval becomes more tightly bound. This makes intuitive sense, since as our sample size increase, we have more confidence that our sample is an accurate representation of the population.  Also, it seems that the population parameter, lambda, is within the confidence interval for each of the simulations. This is also depicted in the following plot:
 
 ![alt text](https://github.com/DimitriTheoharatos/dsp/blob/master/statistics/exercise_images/8-2_1.png)
