@@ -99,7 +99,7 @@ Doing so gives us prior probabilities of 12/17 and 5/17 for being a fraternal tw
 
 Using the fact that the posterior probabilities are propotional to the product of the prior and likelihood, we can summarize our results in the following table:
 
-|Hypotheses     | P(H)          | P(D|H)        | P(H|D)|
+|Hypotheses     | P(H)          | P(D/H)        | P(H/D)|
 |:-------------:|:-------------:|:-------------:|:-----:|
 | H1- Fraternal | 12/17         | 1/2           | 6/17  |
 | H2- Identical | 5/17          | 1             | 5/17  |
