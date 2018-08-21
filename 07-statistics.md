@@ -86,14 +86,34 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
 
+### Solution
+>> We will tackle this problem using Baye's theorem.  In this case, the prior hypotheses, H1 and H2 are whether Elvis was a fraternal or identical twin, respectively.  The data that will update our hypotheses will be whether the other twin was a male.  
+
+To find the prior probabilities, we simply normalize our two probabiliies 1/125 and 1/300, e.g.:
+
+(1/125) + (1/125 + 1/300) ,  (1/300) + (1/125 + 1/300)
+
+Doing so gives us prior probabilities of 12/17 and 5/17 for being a fraternal twin vs an identical twin given the fact that he was in fact a twin. 
+
+
+Using the fact that the posterior probabilities are propotional to the product of the prior and likelihood, we can summarize our results in the following table:
+
+|Hypotheses    | P(H)          | P(D|H)        | P(H|D)|
+|:-----------: |:-------------:|:-------------:| -----:|
+|H1: Fraternal | 12/17         | 1/2           | 6/17  |
+|H2: Identical | 5/17          | 1             | 5/17  |
+
+
+Finally, we normalize the posterior probabilities to get the probability that Elvis was an identical twin to be **5/11**. 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Bayesian and frequentist statistics are similar in the sense that they both depend on the likelihood- the probability of the data given a certain hypothesis.  For frequentist statistics, this is modeled as a p-value, which essentially computes the probability of the results of the experiment conditioned on the fact that the null hypothesis is true. Once this p-value is computed and a threshold is set, it is then up to the experimenter to decide if that p-value warrants the distinction of statistical significance. On the other hand, Bayesian statistics build on frequentist statistics and not only uses the conditional likeihood probabilities, but also assumes a prior distribution.  This of courses poses a problem though, as most experiments do not have known prior probabilities, meaning that the estimate is subjective and prone to aberrations based on the estimator.  
+
+This assumed prior distribution is a major topic of debate between frequentists and Bayesian(ists?). Frequentists are quick to point out that one cannot model a hypothesis as a distribution given the fact that it is either true or not true (which explains why they tend to prefer the null-alternative hypotheses model).  On the other hand, Bayesian statisticians will argue that assuming a prior enables them to calculate precisely with deductive logic, whereas frequentists use ad-hoc experiments with minimal rigor. 
 
 ---
 
