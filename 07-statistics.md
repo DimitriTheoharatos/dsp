@@ -106,7 +106,7 @@ Using the fact that the posterior probabilities are propotional to the product o
 
 
 
-Finally, we normalize the posterior probabilities to get the probability that Elvis was an identical twin to be 5/11. 
+Finally, we normalize the posterior probabilities to get the probability that Elvis was an identical twin to be **5/11**. 
 
 
 
