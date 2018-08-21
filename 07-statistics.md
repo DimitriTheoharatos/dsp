@@ -104,7 +104,12 @@ Using the fact that the posterior probabilities are propotional to the product o
 | H1- Fraternal | 12/17         | 1/2           | 6/17  |
 | H2- Identical | 5/17          | 1             | 5/17  |
 
+
+
 Finally, we normalize the posterior probabilities to get the probability that Elvis was an identical twin to be 5/11. 
+
+
+
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
